@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.crud {
+    width: 80%;
+    margin: 40px auto;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.inputs input {
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+.inputs #Add-item {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.searchBlock input {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
